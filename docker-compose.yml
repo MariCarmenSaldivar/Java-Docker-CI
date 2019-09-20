@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  hoteliterface:
+    image: hoteliterface
+    build: .
+    ports:
+      - 8085:8085
